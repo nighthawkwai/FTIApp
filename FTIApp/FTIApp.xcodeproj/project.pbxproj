@@ -21,6 +21,7 @@
 		0A73D3FF18B011A4003673A9 /* FTIAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A73D3FE18B011A4003673A9 /* FTIAppTests.m */; };
 		0A73D40C18B0171D003673A9 /* FTILogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A73D40B18B0171D003673A9 /* FTILogo.png */; };
 		0A73D41218B019B6003673A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A73D41118B019B6003673A9 /* Main.storyboard */; };
+		D8E5775D18B46240008CE4DA /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E5775C18B46240008CE4DA /* button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		0A73D3FE18B011A4003673A9 /* FTIAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTIAppTests.m; sourceTree = "<group>"; };
 		0A73D40B18B0171D003673A9 /* FTILogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FTILogo.png; sourceTree = "<group>"; };
 		0A73D41118B019B6003673A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D8E5775C18B46240008CE4DA /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 		0A73D40A18B0171D003673A9 /* Project Images */ = {
 			isa = PBXGroup;
 			children = (
+				D8E5775C18B46240008CE4DA /* button.png */,
 				0A73D40B18B0171D003673A9 /* FTILogo.png */,
 			);
 			path = "Project Images";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A73D3E418B011A3003673A9 /* InfoPlist.strings in Resources */,
+				D8E5775D18B46240008CE4DA /* button.png in Resources */,
 				0A73D40C18B0171D003673A9 /* FTILogo.png in Resources */,
 				0A73D3EC18B011A4003673A9 /* Images.xcassets in Resources */,
 				0A73D41218B019B6003673A9 /* Main.storyboard in Resources */,
@@ -458,6 +462,7 @@
 				0A73D40418B011A4003673A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A73D40518B011A4003673A9 /* Build configuration list for PBXNativeTarget "FTIAppTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +471,7 @@
 				0A73D40718B011A4003673A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
