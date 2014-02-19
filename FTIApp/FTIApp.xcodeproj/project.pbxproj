@@ -21,6 +21,7 @@
 		0A73D3FF18B011A4003673A9 /* FTIAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A73D3FE18B011A4003673A9 /* FTIAppTests.m */; };
 		0A73D40C18B0171D003673A9 /* FTILogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A73D40B18B0171D003673A9 /* FTILogo.png */; };
 		0A73D41218B019B6003673A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A73D41118B019B6003673A9 /* Main.storyboard */; };
+		D7B2E5C618B46CBC00E52A95 /* FTICustomUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E5C518B46CBC00E52A95 /* FTICustomUIButton.m */; };
 		D8E5775D18B46240008CE4DA /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E5775C18B46240008CE4DA /* button.png */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		0A73D3FE18B011A4003673A9 /* FTIAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTIAppTests.m; sourceTree = "<group>"; };
 		0A73D40B18B0171D003673A9 /* FTILogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FTILogo.png; sourceTree = "<group>"; };
 		0A73D41118B019B6003673A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D7B2E5C418B46CBC00E52A95 /* FTICustomUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTICustomUIButton.h; path = FTIApp/FTICustomUIButton.h; sourceTree = SOURCE_ROOT; };
+		D7B2E5C518B46CBC00E52A95 /* FTICustomUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTICustomUIButton.m; path = FTIApp/FTICustomUIButton.m; sourceTree = SOURCE_ROOT; };
 		D8E5775C18B46240008CE4DA /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +116,8 @@
 		0A73D3DF18B011A3003673A9 /* FTIApp */ = {
 			isa = PBXGroup;
 			children = (
+				D7B2E5C418B46CBC00E52A95 /* FTICustomUIButton.h */,
+				D7B2E5C518B46CBC00E52A95 /* FTICustomUIButton.m */,
 				0A73D40A18B0171D003673A9 /* Project Images */,
 				0A73D3E818B011A4003673A9 /* FTIAppDelegate.h */,
 				0A73D3E918B011A4003673A9 /* FTIAppDelegate.m */,
@@ -260,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B2E5C618B46CBC00E52A95 /* FTICustomUIButton.m in Sources */,
 				0A73D3EA18B011A4003673A9 /* FTIAppDelegate.m in Sources */,
 				0A73D3E618B011A3003673A9 /* main.m in Sources */,
 			);
