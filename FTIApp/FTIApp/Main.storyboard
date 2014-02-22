@@ -17,15 +17,27 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfn-fn-Zzp" customClass="FTICustomUIButton">
-                                <rect key="frame" x="108" y="243" width="104" height="41"/>
+                                <rect key="frame" x="95" y="317" width="131" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="18"/>
-                                <state key="normal" title="Begin"/>
+                                <state key="normal" title="Begin">
+                                    <color key="titleColor" red="0.30196078431372547" green="0.49803921568627452" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="siR-hW-ym5" kind="modal" id="9sQ-aF-fAi"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FTILogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="kRj-0U-CK9">
-                                <rect key="frame" x="40" y="20" width="240" height="128"/>
+                                <rect key="frame" x="40" y="38" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Search For Professsionals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaG-ff-A1w">
+                                <rect key="frame" x="0.0" y="174" width="320" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.70612282428161433" green="0.71815210459183676" blue="0.7100351449004767" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -33,6 +45,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fW7-Yy-Azd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="51" y="4"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="N7Y-mz-N0w">
+            <objects>
+                <viewController id="siR-hW-ym5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jsg-36-cQi"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZLf-Mr-P5g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ix6-Bn-lcH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sC-bj-lRV">
+                                <rect key="frame" x="123" y="56" width="86" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UuE-bk-BFs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QXf-16-1Nn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="537" y="4"/>
         </scene>
     </scenes>
     <resources>

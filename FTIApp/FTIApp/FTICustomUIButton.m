@@ -30,7 +30,7 @@
     NSLog(@" rectagle size %f %f", rectSize.width,rectSize.height);
     
     // Color Declarations
-    UIColor *borderColor = [UIColor colorWithRed:0.25f green:0.23f blue:0.70f alpha:1.00f];
+    UIColor *borderColor = [UIColor colorWithRed:0.14f green:0.38f blue:0.48f alpha:1.00f];
     UIColor *topColor = [UIColor colorWithRed:0.99f green:0.99f blue:0.99f alpha:1.00f];
     UIColor *bottomColor = [UIColor colorWithRed:0.99f green:0.99f blue:0.99f alpha:1.00f];
     //UIColor *innerGlow = [UIColor colorWithWhite:1.0 alpha:0.5];
